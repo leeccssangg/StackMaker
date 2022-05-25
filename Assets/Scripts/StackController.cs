@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class StackController : MonoBehaviour
+public class StackController : Stack
 {
     [SerializeField]
     private GameObject cube;
@@ -19,39 +19,39 @@ public class StackController : MonoBehaviour
         stacks = new Stack<GameObject>();
     }
 
-    public void OnTriggerEnter(Collider other)
+    public override void OnTriggerEnter(Collider other)
     {
         
         string tmp = other.tag;
-        //switch (tmp)
+        switch (tmp)
+        {
+            case Constant.TAG_EATABLE:
+
+            case Constant.TAG_CHECK_POINT:
+                EatStack();
+                break;
+            case Constant.TAG_UNEATABLE:
+                SpawnStack(other.transform.position);
+                break;
+            case Constant.TAG_FINISH_POINT:
+
+            default:
+                break;
+
+        }
+        //if (tmp.Equals(Constant.TAG_EATABLE) || tmp.Equals(Constant.TAG_CHECK_POINT))
         //{
-        //    case Constant.TAG_EATABLE:
-
-        //    case Constant.TAG_CHECK_POINT:
-        //        EatStack();
-        //        break;
-        //    case Constant.TAG_UNEATABLE:
-        //        SpawnStack(other.transform.position);
-        //        break;
-        //    case Constant.TAG_FINISH_POINT:
-
-        //    default:
-        //        break;
+        //    Debug.Log("player c" + other.name);
+        //    EatStack();
+        //}
+        //if (tmp.Equals(Constant.TAG_UNEATABLE))
+        //{
+        //    SpawnStack(other.transform.position);
+        //}
+        //if (tmp.Equals(Constant.TAG_FINISH_POINT))
+        //{
 
         //}
-        if (tmp.Equals(Constant.TAG_EATABLE) || tmp.Equals(Constant.TAG_CHECK_POINT))
-        {
-            Debug.Log("player c" + other.name);
-            EatStack();
-        }
-        if (tmp.Equals(Constant.TAG_UNEATABLE))
-        {
-            SpawnStack(other.transform.position);
-        }
-        if (tmp.Equals(Constant.TAG_FINISH_POINT))
-        {
-
-        }
     }
 
     private void EatStack()
