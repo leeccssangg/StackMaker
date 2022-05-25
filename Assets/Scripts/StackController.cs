@@ -9,8 +9,6 @@ public class StackController : MonoBehaviour
     private GameObject cube;
     [SerializeField]
     private Transform model;
-    [SerializeField]
-    private Material fade;
     private int count;
     private Stack<GameObject> stacks;
 
@@ -21,35 +19,37 @@ public class StackController : MonoBehaviour
         stacks = new Stack<GameObject>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter(Collider other)
     {
-        Debug.Log(count);
-    }
+        
+        string tmp = other.tag;
+        //switch (tmp)
+        //{
+        //    case Constant.TAG_EATABLE:
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        string tmp = collision.gameObject.tag;
-        switch (tmp)
+        //    case Constant.TAG_CHECK_POINT:
+        //        EatStack();
+        //        break;
+        //    case Constant.TAG_UNEATABLE:
+        //        SpawnStack(other.transform.position);
+        //        break;
+        //    case Constant.TAG_FINISH_POINT:
+
+        //    default:
+        //        break;
+
+        //}
+        if (tmp.Equals(Constant.TAG_EATABLE) || tmp.Equals(Constant.TAG_CHECK_POINT))
         {
-            case "Eatable":
-                collision.gameObject.SetActive(false);            
-                EatStack();
-                break;
-            case "CheckPoint":
-                collision.gameObject.GetComponent<MeshRenderer>().material = fade;
-                collision.gameObject.tag = "LastCheckPoint";
-                EatStack();
-                break;
-            case "Uneatable":
-                collision.gameObject.SetActive(false);
-                SpawnStack(collision.transform.position);
-                break;
-
-            case "FinishPoint":
-                
-            default:
-                break;
+            Debug.Log("player c" + other.name);
+            EatStack();
+        }
+        if (tmp.Equals(Constant.TAG_UNEATABLE))
+        {
+            SpawnStack(other.transform.position);
+        }
+        if (tmp.Equals(Constant.TAG_FINISH_POINT))
+        {
 
         }
     }

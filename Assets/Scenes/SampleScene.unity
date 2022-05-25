@@ -133,11 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -287,11 +282,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -839,11 +829,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -1069,11 +1054,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -1223,11 +1203,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -1454,11 +1429,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -1684,11 +1654,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -1763,11 +1728,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -1937,11 +1897,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -2260,11 +2215,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -2358,11 +2308,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -2438,11 +2383,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -2517,11 +2457,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -2696,11 +2631,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -2927,11 +2857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -3006,11 +2931,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -3410,11 +3330,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -3563,11 +3478,6 @@ PrefabInstance:
     - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_Name
-      value: Eatable
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
       value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
@@ -3720,11 +3630,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -3874,11 +3779,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -4585,11 +4485,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -5345,11 +5240,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -5425,11 +5315,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -5504,11 +5389,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -5810,11 +5690,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -5964,11 +5839,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -6195,11 +6065,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (25)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -6274,11 +6139,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eatable (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
       objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
@@ -6355,11 +6215,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eatable (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 7452159078651609152, guid: 8786ae776ed354561872afd328906a88,
-        type: 3}
-      propertyPath: m_TagString
-      value: Eatable
-      objectReference: {fileID: 0}
     - target: {fileID: 7452159078651609156, guid: 8786ae776ed354561872afd328906a88,
         type: 3}
       propertyPath: m_RootOrder
@@ -6430,9 +6285,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2809604264607190416, guid: 906e73fcb7f9649d4b15a5de2eabf913,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2809604264607190417, guid: 906e73fcb7f9649d4b15a5de2eabf913,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2809604264607190417, guid: 906e73fcb7f9649d4b15a5de2eabf913,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2809604264607190420, guid: 906e73fcb7f9649d4b15a5de2eabf913,

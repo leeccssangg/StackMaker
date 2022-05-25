@@ -67,15 +67,15 @@ public class InputController : MonoBehaviour
             string tmp = hit.transform.gameObject.tag;
             switch (tmp)
             {
-                case "FinishPoint":
+                case Constant.TAG_FINISH_POINT:
 
-                case "CheckPoint":
+                case Constant.TAG_CHECK_POINT:
 
-                case "StartPoint":
+                case Constant.TAG_START_POINT:
 
-                case "Uneatable":
+                case Constant.TAG_UNEATABLE:
 
-                case "LastCheckPoint":
+                case Constant.TAG_LAST_CHECKPOINT:
                     isMoveing = true;
                     cube.DOMove(hit.transform.position, 0.5f).OnComplete(() => {
                         isMoveing = false;
