@@ -19,12 +19,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - CheckPoint
-  - 
-  - 
-  - 
-  - 
+  - Eatable
+  - Uneatable
+  - StartPos
+  - FinishPos
   - 
   - 
   - 
