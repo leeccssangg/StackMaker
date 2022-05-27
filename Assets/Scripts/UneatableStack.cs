@@ -8,7 +8,7 @@ public class UneatableStack : Stack
     {
         if (other.CompareTag(Constant.TAG_PLAYER))
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
