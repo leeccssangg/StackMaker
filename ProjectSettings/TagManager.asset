@@ -10,6 +10,7 @@ TagManager:
   - LastCheckPoint
   - FinishPoint
   - Uneatable
+  - Wall
   layers:
   - Default
   - TransparentFX
