@@ -19,7 +19,7 @@ public class MapData : OdinMenuEditorWindow
         var tree = new OdinMenuTree();
 
         tree.Add("Create New Map Data", new CreateNewMapData());
-        tree.AddAllAssetsAtPath("Map Data List", "Assets/Scripts/Data/Data Level", typeof(BuildData));
+        tree.AddAllAssetsAtPath("Map Data List", "Assets/_Game/Scriptable Objects/Data Level", typeof(BuildData));
 
         return tree;
     }
@@ -40,7 +40,7 @@ public class MapData : OdinMenuEditorWindow
 
         private void GenerateNewMapData()
         {
-            AssetDatabase.CreateAsset(mapData, "Assets/Scripts/Data/Data Level/Level " + levelNumber + ".asset");
+            AssetDatabase.CreateAsset(mapData, "Assets/_Game/Scriptable Objects/Data Level/Level " + levelNumber + ".asset");
             AssetDatabase.SaveAssets();
             mapData = ScriptableObject.CreateInstance<BuildData>();
         }

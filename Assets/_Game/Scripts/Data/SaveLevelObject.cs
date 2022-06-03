@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[System.Serializable]
-public class BaseBuildData
+
+public class SaveLevelObject : MonoBehaviour
 {
-    public BuildType type;
-    public Vector3 pos;
+    public LevelObjectType type;
 }
-public enum BuildType
+
+public enum LevelObjectType
 {
     WALL,
     EATABLE,
     UNEATABLE,
     CORNER_WALL,
+    CHECK_POINT,
     START_POINT,
     FINISH_POINT,
 }
-

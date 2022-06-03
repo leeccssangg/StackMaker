@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5333836166094915210}
   - component: {fileID: 5333836166094915211}
   - component: {fileID: 5333836166094915208}
+  - component: {fileID: -715699419136978241}
+  - component: {fileID: 7035963187800414161}
   m_Layer: 13
   m_Name: Finish
   m_TagString: FinishPoint
@@ -93,3 +95,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-715699419136978241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5333836166094915209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd50a269280c2482294b19f6a3fa02a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 6
+  prefab: {fileID: 5333836166094915209}
+--- !u!114 &7035963187800414161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5333836166094915209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363beee67508847c3b0b3e29781fec25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 6
